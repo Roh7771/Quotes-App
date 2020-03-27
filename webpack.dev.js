@@ -54,7 +54,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: false,
             template: require('html-webpack-template'),
-            title: 'Document',
+            title: 'Quotes',
             mobile: true,
             lang: 'en-US',
             appMountId: 'root'

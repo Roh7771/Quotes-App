@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 import { Provider, connect } from 'react-redux';
 import QuotesRender from './QuotesRender';
 
-let nextId = 0;
+let nextId = 1;
 
 const quotes = [
     {
